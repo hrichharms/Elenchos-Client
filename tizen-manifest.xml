@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="com.elenchos" version="1.0.0">
+    <author email="freelanceharms@gmail.com">Heinrich Harms</author>
+    <profile name="wearable"/>
+    <widget-application appid="com.elenchos" exec="elenchos" main="true" update-period="0">
+        <label>Elenchos</label>
+        <icon>icon.png</icon>
+        <support-size preview="preview.png">2x2</support-size>
+    </widget-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>
