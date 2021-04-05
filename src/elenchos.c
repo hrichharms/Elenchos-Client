@@ -19,7 +19,7 @@ clicked_cb(void *data, Evas_Object *obj, void *event_info)
 
 	curl = curl_easy_init();
 	if (curl) {
-		curl_easy_setopt(curl, CURLOPT_URL, "http://10.0.0.70:8000");
+		curl_easy_setopt(curl, CURLOPT_URL, "http://10.0.0.70:8000/macros/run");
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, msg);
 
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE, (long)strlen(msg));
